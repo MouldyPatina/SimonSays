@@ -1,0 +1,95 @@
+.title {
+    color: chocolate;
+}
+
+.gameButtons {
+    margin: 1em;
+}
+
+.gameButtons button {
+    display:inline-block;
+    width:60px;
+    height:60px;
+    border:5px solid;
+}
+
+#red {
+    background-color: red;
+    border-color: lightcoral;
+}
+
+#red:disabled{
+    border-color: darkred;
+}
+
+#red:hover:enabled {
+    background-color: darkred;
+    border-color: coral;
+}
+
+#red:hover:enabled:active {
+    background-color: brown;
+    border-color: black;
+}
+
+
+#blue {
+    background-color: blue;
+    border-color: lightblue;
+}
+
+#blue:disabled{
+    border-color: darkblue;
+}
+
+#blue:hover:enabled {
+    background-color: darkblue;
+    border-color: cadetblue;
+}
+
+#blue:hover:enabled:active {
+    background-color: navy;
+    border-color: black;
+}
+
+#yellow {
+    background-color: gold;
+    border-color: palegoldenrod;
+}
+
+#yellow:disabled {
+    border-color: goldenrod;
+}
+
+#yellow:hover:enabled {
+    background-color: goldenrod;
+    border-color: tan;
+}
+
+#yellow:hover:enabled:active {
+    background-color: darkgoldenrod;
+    border-color: black;
+}
+
+#green {
+    background-color: green;
+    border-color: palegreen;
+}
+
+#green:disabled {
+    border-color: darkgreen;
+}
+
+#green:hover:enabled {
+    background-color: forestgreen;
+    border-color: darkolivegreen;
+}
+
+#green:hover:enabled:active {
+    background-color: darkgreen;
+    border-color: black;
+}
+
+.flash {
+    background-color: white !important;
+}
