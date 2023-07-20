@@ -43,7 +43,6 @@ async function startGame() {
     }
     disableButtons(false);
     document.getElementById("gameStart").innerHTML = "submit guess";
-    console.log(simonSays);
     guessPos = 0;
 }
 
