@@ -11,17 +11,21 @@
     <h1 class="title">
         This is a simple simon says application
     </h1>
+    <p class="center">
+      Current highscore is: <b id="highScore">0</b>
+    </p>
     <div class="gameButtons">
+      <div>
         <button type="button" onclick="isNext('yellow')" id="yellow" title="yellow"></button>
         <button type="button" onclick="isNext('blue')" id="blue" title="blue"></button>
+      </div>
+      <div>
         <button type="button" onclick="isNext('red')" id="red" title="red"></button>
         <button type="button" onclick="isNext('green')" id="green" title="green"></button>
+      </div>
     </div>
     <button type="button" onclick="startGame()" id="gameStart">start game</button>
     <button type="button" onclick="changeDifficulty()" id="difficulty">Difficulty: Easy</button>
-    <p>
-        Current highscore is: <b id="highScore">0</b>
-    </p>
     <script src="logic.js" type="text/javascript"></script>
   </body>
 </html>

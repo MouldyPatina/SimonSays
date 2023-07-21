@@ -8,9 +8,10 @@
 
 .gameButtons button {
     display:inline-block;
-    width:60px;
-    height:60px;
-    border:5px solid;
+    width:10rem;
+    height:10rem;
+    border:0.5rem solid;
+    margin: 0.5rem;
 }
 
 #red {
@@ -92,4 +93,37 @@
 
 .flash {
     background-color: white !important;
+}
+
+button {
+    background-color: #008CBA;
+    border: 0.5rem, white;
+    color: white;
+    padding: 1em 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1.5rem;
+}
+
+button:disabled {
+    background-color: #e7e7e7; color: black;
+}
+
+button:hover:enabled{
+    background-color: #008bbac4;
+}
+
+button:hover:enabled:active {
+    background-color: white;
+    border: 0.5rem, #008CBA;
+    color: #008CBA;
+}
+
+.center {
+    align-content: center;
+    color: red;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
