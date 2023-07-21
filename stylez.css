@@ -127,7 +127,7 @@ button:hover:enabled:active {
     margin-right: 5rem;
 }
 
-.background {
+body {
     background-color: rgba(149,201,200,0.25);
     opacity: 1;
     background-image:  linear-gradient(rgba(86,86,86,0.1) 1.4px, transparent 1.4px),
