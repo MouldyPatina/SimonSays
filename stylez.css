@@ -123,7 +123,18 @@ button:hover:enabled:active {
 
 .center {
     align-content: center;
-    color: red;
     margin-left: 5rem;
     margin-right: 5rem;
+}
+
+.background {
+    background-color: rgba(149,201,200,0.25);
+    opacity: 1;
+    background-image:  linear-gradient(rgba(86,86,86,0.1) 1.4px, transparent 1.4px),
+                            linear-gradient(90deg, rgba(86,86,86,0.1) 1.4px, transparent 1.4px),
+                            linear-gradient(rgba(86,86,86,0.1) 0.7px, transparent 0.7px),
+                            linear-gradient(90deg, rgba(86,86,86,0.1) 0.7px,
+                            rgba(149,201,200,0.25) 0.7px);
+    background-size: 35px 35px, 35px 35px, 7px 7px, 7px 7px;
+    background-position: -1.4px -1.4px, -1.4px -1.4px, -0.7px -0.7px, -0.7px -0.7px;
 }
