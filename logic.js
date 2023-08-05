@@ -78,7 +78,7 @@ function isNext(colour) {
 
 function lostGame(message) {
     if (message == null) {
-        message = "you lost";
+    	message = "you lost";
     }
     highScore = Math.max(highScore, simonSays.length - 1);
     window.alert(message);
